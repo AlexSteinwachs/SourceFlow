@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_sourceflow_sourceflow_request">x_snc_sourceflow_sourceflow_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>10000</number>
+        <prefix>SOURCE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2017-10-19 15:38:17</sys_created_on>
+        <sys_id>695a961bdb354700a8cffa56bf961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SOURCE</sys_name>
+        <sys_package display_value="SourceFlow" source="x_snc_sourceflow">a0c41613db354700a8cffa56bf961988</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SourceFlow">a0c41613db354700a8cffa56bf961988</sys_scope>
+        <sys_update_name>sys_number_695a961bdb354700a8cffa56bf961943</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2017-10-19 15:38:17</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Contacts" max_length="40" name="x_snc_sourceflow_contacts" type="collection">
+        <element label="Email" max_length="64" name="email" type="string"/>
+        <element display="true" label="Name" max_length="64" name="name" type="string"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="x_snc_sourceflow_vendor" type="reference"/>
+        <index name="index">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

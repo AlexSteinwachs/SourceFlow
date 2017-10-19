@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_snc_sourceflow_sourceflow_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>P&amp;A Request</label>
+            <language>en</language>
+            <name>x_snc_sourceflow_sourceflow_request</name>
+            <sequence/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2017-10-19 15:40:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4dade1bdb354700a8cffa56bf961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2017-10-19 15:40:44</sys_updated_on>
+            <value>pa_request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Return Request</label>
+            <language>en</language>
+            <name>x_snc_sourceflow_sourceflow_request</name>
+            <sequence/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2017-10-19 15:41:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13eade1bdb354700a8cffa56bf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2017-10-19 15:41:02</sys_updated_on>
+            <value>return</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_snc_sourceflow_sourceflow_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2017-10-19 15:40:44</sys_created_on>
+            <sys_id>d5ea125bdb354700a8cffa56bf961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="SourceFlow" source="x_snc_sourceflow">a0c41613db354700a8cffa56bf961988</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SourceFlow">a0c41613db354700a8cffa56bf961988</sys_scope>
+            <sys_update_name>sys_choice_x_snc_sourceflow_sourceflow_request_type</sys_update_name>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2017-10-19 15:40:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="SourceFlow Request" max_length="40" name="x_snc_sourceflow_sourceflow_request" type="collection">
+        <element label="SKU" mandatory="true" max_length="32" name="sku" type="string"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="P&amp;A Request" value="pa_request"/>
+                <element label="Return Request" value="return"/>
+            </choice>
+        </element>
+        <element label="Vendor" mandatory="true" max_length="32" name="vendor" reference="x_snc_sourceflow_vendor" type="reference"/>
+    </element>
+</database>
